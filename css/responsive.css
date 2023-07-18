@@ -1,0 +1,23 @@
+@media screen and (max-width:500px) {
+    .nav-container{
+        flex-direction: column;
+        
+  }
+  .manu-ber {
+   flex-direction: column;
+   
+  }
+  .manu-ber a{
+    margin-top: 20px;
+}
+
+.manu-ber {
+    width: 100%;
+    
+  }
+  .manu-ber .login-btn{
+   width: 100%;
+   text-align: center;
+   margin-bottom: 10px;
+}
+}
