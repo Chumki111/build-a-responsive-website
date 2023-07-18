@@ -102,3 +102,55 @@ nav{
     height: 100%;
     border-radius: 10px;
 }
+
+/* products styled here */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1000px;
+    margin: 50px auto 0px;
+    
+    gap: 10px;
+}
+.card{
+ 
+
+ background-color: #e6e9eb;
+ border-radius: 10px;
+ padding: 0px 10px;
+ box-shadow: 2px 2px 4px black;
+}
+.card img{
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+
+}
+.product-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card p{
+    text-align: justify;
+}
+.fa-solid{
+    font-size: 1rem;
+}
+.fa-cart-shopping{
+    padding: 10px;
+    background-color: #e893cf;
+    border-radius: 50%;
+    
+}
+.fa-credit-card{
+    padding: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+.fa-eye{
+    padding: 10px;
+    background-color: #9376e0;
+    border-radius: 50%;
+}
